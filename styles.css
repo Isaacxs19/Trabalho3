@@ -1,0 +1,35 @@
+.armario {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .porta {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .numero {
+    font-size: 24px;
+  }
+  
+  .estado {
+    font-size: 18px;
+  }
+  
+  .livre {
+    background-color: green;
+  }
+  
+  .ocupado {
+    background-color: red;
+  }
+  
+  .manutencao {
+    background-color: yellow;
+  }
